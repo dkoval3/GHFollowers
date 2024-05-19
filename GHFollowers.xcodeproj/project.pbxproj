@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C72A8D0B2BF988B50067BB58 /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72A8D0A2BF988B50067BB58 /* GFTextField.swift */; };
+		C72A8D0F2BF9B2690067BB58 /* FollowerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72A8D0E2BF9B2690067BB58 /* FollowerListVC.swift */; };
 		C74FFF032BF876F200F1CE09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74FFF022BF876F200F1CE09 /* AppDelegate.swift */; };
 		C74FFF052BF876F200F1CE09 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74FFF042BF876F200F1CE09 /* SceneDelegate.swift */; };
 		C74FFF0C2BF876F400F1CE09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C74FFF0B2BF876F400F1CE09 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		C72A8D0A2BF988B50067BB58 /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
+		C72A8D0E2BF9B2690067BB58 /* FollowerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListVC.swift; sourceTree = "<group>"; };
 		C74FFEFF2BF876F200F1CE09 /* GHFollowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHFollowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C74FFF022BF876F200F1CE09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C74FFF042BF876F200F1CE09 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				C74FFF182BF880D400F1CE09 /* FavoritesListVC.swift */,
 				C74FFF1A2BF8881800F1CE09 /* GFButton.swift */,
 				C72A8D0A2BF988B50067BB58 /* GFTextField.swift */,
+				C72A8D0E2BF9B2690067BB58 /* FollowerListVC.swift */,
 			);
 			path = GHFollowers;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 				C74FFF192BF880D400F1CE09 /* FavoritesListVC.swift in Sources */,
 				C74FFF1B2BF8881800F1CE09 /* GFButton.swift in Sources */,
 				C74FFF172BF8809400F1CE09 /* SearchVC.swift in Sources */,
+				C72A8D0F2BF9B2690067BB58 /* FollowerListVC.swift in Sources */,
 				C74FFF032BF876F200F1CE09 /* AppDelegate.swift in Sources */,
 				C74FFF052BF876F200F1CE09 /* SceneDelegate.swift in Sources */,
 			);
