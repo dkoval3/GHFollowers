@@ -7,6 +7,8 @@
 
 import UIKit
 
+// When extracthing thigs out of VC, ask "Does my VC need to know this?"
+// if not, extract it out!
 class SearchVC: UIViewController {
     
     let logoImageView = UIImageView()
@@ -41,7 +43,8 @@ class SearchVC: UIViewController {
     
     @objc func pushFollowerListVC() {
         guard isUsernameEntered else {
-            print("No username")
+            // command + control + space to pull up emoji keyboard
+            presentGFAlertOnMainThread(title: "Empty username", message: "Please enter a username. We need to know who to look for 😄", buttonTitle: "OK")
             return
         }
         let followerListVC = FollowerListVC() // create VC
